@@ -1,19 +1,12 @@
 const express = require("express");
 const path = require("path");
-const fs = require("fs");
 const Database = require("better-sqlite3");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ✅ I-auto-create ang directory kung wala pa
-const DB_PATH = process.env.DB_PATH || "tindahan.db";
-const dbDir = path.dirname(DB_PATH);
-if (dbDir && dbDir !== "." && !fs.existsSync(dbDir)) {
-  fs.mkdirSync(dbDir, { recursive: true });
-}
-
-const db = new Database(DB_PATH);
+// ✅ Simpleng database path — gagana sa Render free tier
+const db = new Database("tindahan.db");
 db.pragma("journal_mode = WAL");
 
 db.exec(`
