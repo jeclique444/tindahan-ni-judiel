@@ -1,0 +1,7 @@
+node_modules/
+tindahan.db
+tindahan.db-shm
+tindahan.db-wal
+.env
+.DS_Store
+*.log
