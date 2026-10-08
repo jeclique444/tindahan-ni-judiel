@@ -1,91 +1,105 @@
 <div align="center">
 
-# 🏪 Tindahan ni Judiel
+# Tindahan ni Judiel
 
-### *Your neighborhood convenience, now online.*
+**A neighborhood sari-sari store, reimagined for the web.**
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)](https://render.com/)
 
-> *"Kasama sa araw-araw."* — Serving the community, one order at a time.
+[Live Demo](https://tindahan-ni-judiel.onrender.com/) · [Report an Issue](https://github.com/jeclique444/tindahan-ni-judiel/issues) · [Request a Feature](https://github.com/jeclique444/tindahan-ni-judiel/issues)
 
 </div>
 
 ---
 
-## 📖 About the Project
+## The Story
 
-**Tindahan ni Judiel** is a modern, responsive website for a local Filipino sari-sari store. It brings the warm, familiar experience of a neighborhood *tindahan* to the digital world — allowing customers to browse everyday essentials, check out *sulit* promos, and place orders for pickup, all from the comfort of their homes.
+Every neighborhood has one — the small store on the corner where you can find anything you need, at any hour, from someone who knows your name. **Tindahan ni Judiel** brings that same warmth online.
 
-This project was inspired by the simple joy of walking to your local store and being greeted by a friendly face. We wanted to recreate that feeling online — clean, welcoming, and *abot-kaya* for everyone.
+This project transforms the familiar *sari-sari* store experience into a modern, responsive web application. Customers can browse everyday essentials, discover *sulit* bundle deals, and place orders for pickup — all from the comfort of home.
 
----
-
-## ✨ Features
-
-| Section | Description |
-|--------|-------------|
-| 🏠 **Home** | A warm hero section with a friendly greeting, featured *paborito* products, and quick category navigation. |
-| 🛍️ **Shop** | A clean product grid displaying all available items with prices and an "Add to Basket" button. |
-| 🎉 **Promos** | *Sulit* bundle deals and a step-by-step guide on how to order. |
-| 📖 **About** | The heartwarming story behind Tindahan ni Judiel — our mission and our promise to the community. |
-| 📬 **Contact** | A simple order request form and store details (location, hours, social media). |
+It is built with a simple belief: **technology should feel as welcoming as a friendly greeting from your *kapitbahay*.**
 
 ---
 
-## 🛠️ Built With
+## Overview
 
-- **HTML5** — Semantic structure for accessibility and clarity.
-- **CSS3** — Custom properties (variables), Flexbox, Grid, and responsive media queries.
-- **JavaScript (Vanilla)** — Single Page Application (SPA) navigation and dynamic icon rendering.
-- **Google Fonts** — *Playfair Display* for elegant headings and *DM Sans* for clean body text.
-- **Lucide Icons** — A beautiful, consistent open-source icon set.
-- **Render** — Free static site hosting with a global CDN and automatic Git deploys.[reference:0]
-
-> **No frameworks, no build tools.** Just pure, handcrafted code — lightweight and easy to deploy.
+| | |
+|---|---|
+| **Type** | Static Web Application |
+| **Status** | Live and Actively Maintained |
+| **Live URL** | [tindahan-ni-judiel.onrender.com](https://tindahan-ni-judiel.onrender.com/) |
+| **License** | MIT |
 
 ---
 
-## 🚀 Live Demo
+## Pages
 
-🔗 **[View the live site here](https://tindahan-ni-judiel.onrender.com/)**
+The site is organized into five distinct sections, each designed with a specific purpose.
 
-*Experience the warm, familiar feel of your neighborhood sari-sari store — now online.*
+**Home** — A warm landing page featuring a hero introduction, the store's best-selling *paborito* products, and quick navigation to product categories.
 
----
+**Shop** — A clean, grid-based catalog displaying available items with prices and a basket action.
 
-## 📸 Screenshots
+**Promos** — Curated *sulit* bundle deals alongside a simple four-step guide explaining how to place an order.
 
-Here's a preview of what the website looks like:
+**About** — The story behind Tindahan ni Judiel, its mission, and its promise to the community.
 
-### 🏠 Home Page
-![Home Page](https://github.com/jeclique444/tindahan-ni-judiel/assets/your-username/home-preview.png)
-*The warm and welcoming landing page with featured products.*
-
-### 🛍️ Shop Page
-![Shop Page](https://github.com/jeclique444/tindahan-ni-judiel/assets/your-username/shop-preview.png)
-*A clean grid of everyday essentials.*
-
-### 🎉 Promos Page
-![Promos Page](https://github.com/jeclique444/tindahan-ni-judiel/assets/your-username/promos-preview.png)
-*Sulit bundles and a simple ordering guide.*
-
-> **Note:** Replace the screenshot URLs above with your own hosted images (you can upload them to GitHub Issues or a free image host).
+**Contact** — A minimal order request form paired with essential store details such as location, operating hours, and social handles.
 
 ---
 
-## 📦 Getting Started
+## Technology
 
-Follow these simple steps to run the project locally on your machine.
+This project deliberately avoids frameworks and build tooling. Every line of code is handcrafted, readable, and easy to maintain.
+
+| Technology | Purpose |
+|---|---|
+| **HTML5** | Semantic structure and accessibility |
+| **CSS3** | Layout, design system, and responsive behavior |
+| **JavaScript (Vanilla)** | Single-page navigation and dynamic interactions |
+| **Google Fonts** | *Playfair Display* for headings, *DM Sans* for body |
+| **Lucide Icons** | Consistent, lightweight iconography |
+| **Render** | Static hosting with global CDN and automatic deploys |
+
+> No bundlers. No dependencies. No build step. Just the web platform, used well.
+
+---
+
+## Design Language
+
+The visual identity draws from the cozy, familiar aesthetics of a Filipino *tindahan*.
+
+| Token | Value | Usage |
+|---|---|---|
+| Warm Cream | `#FDF9F1` | Page background |
+| Dark Brown | `#3E2A23` | Primary text |
+| Muted Forest | `#5B7B48` | Primary actions |
+| Soft Brick | `#C45A3C` | Prices and accents |
+| Light Sage | `#E5EAD9` | Secondary buttons |
+| Pure White | `#FFFFFF` | Cards and surfaces |
+
+**Typography** — *Playfair Display* lends timeless elegance to headings, while *DM Sans* keeps body text clean and highly legible.
+
+---
+
+## Getting Started
 
 ### Prerequisites
 
-All you need is a modern web browser (Chrome, Firefox, Edge, Safari) and a code editor (VS Code, Notepad++, etc.).
+A modern web browser and any code editor.
 
-### Installation
+### Run Locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/jeclique444/tindahan-ni-judiel.git
+```bash
+# Clone the repository
+git clone https://github.com/jeclique444/tindahan-ni-judiel.git
+
+# Navigate into the project
+cd tindahan-ni-judiel
+
+# Open in your browser
+# Simply double-click index.html, or use a live server extension
